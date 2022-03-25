@@ -43,11 +43,6 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(130, 183);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(173, 32);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "play dota";
             this.button2.Location = new System.Drawing.Point(381, 181);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(151, 115);
