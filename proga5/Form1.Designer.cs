@@ -34,7 +34,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(387, 118);
+            this.button1.Location = new System.Drawing.Point(101, 77);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(151, 115);
             this.button1.TabIndex = 0;
@@ -48,6 +48,11 @@
             this.button2.Size = new System.Drawing.Size(173, 32);
             this.button2.TabIndex = 1;
             this.button2.Text = "play dota";
+            this.button2.Location = new System.Drawing.Point(381, 181);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(151, 115);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "взорвать америку!!!!!!!!!!!!!!!!!";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // Form1
