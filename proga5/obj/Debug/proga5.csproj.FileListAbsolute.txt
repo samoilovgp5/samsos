@@ -1,0 +1,10 @@
+C:\Users\alexandr\Desktop\ex\fresh\proga5\bin\Debug\proga5.exe.config
+C:\Users\alexandr\Desktop\ex\fresh\proga5\bin\Debug\proga5.exe
+C:\Users\alexandr\Desktop\ex\fresh\proga5\bin\Debug\proga5.pdb
+C:\Users\alexandr\Desktop\ex\fresh\proga5\obj\Debug\proga5.csproj.AssemblyReference.cache
+C:\Users\alexandr\Desktop\ex\fresh\proga5\obj\Debug\proga5.Form1.resources
+C:\Users\alexandr\Desktop\ex\fresh\proga5\obj\Debug\proga5.Properties.Resources.resources
+C:\Users\alexandr\Desktop\ex\fresh\proga5\obj\Debug\proga5.csproj.GenerateResource.cache
+C:\Users\alexandr\Desktop\ex\fresh\proga5\obj\Debug\proga5.csproj.CoreCompileInputs.cache
+C:\Users\alexandr\Desktop\ex\fresh\proga5\obj\Debug\proga5.exe
+C:\Users\alexandr\Desktop\ex\fresh\proga5\obj\Debug\proga5.pdb
