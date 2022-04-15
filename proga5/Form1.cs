@@ -31,5 +31,15 @@ namespace proga5
         {
             MessageBox.Show("AAAA!");
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("AAAA!");
+        }
     }
 }
