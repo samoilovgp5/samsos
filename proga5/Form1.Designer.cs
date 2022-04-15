@@ -28,46 +28,61 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.Butnkal1 = new System.Windows.Forms.Button();
+            this.Butnkal2 = new System.Windows.Forms.Button();
+            this.TextKala = new System.Windows.Forms.TextBox();
+            this.BoxKala = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
-            // button1
+            // Butnkal1
             // 
-            this.button1.Location = new System.Drawing.Point(101, 77);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(151, 115);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "УРА ПУТИНУ";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.Butnkal1.Location = new System.Drawing.Point(101, 77);
+            this.Butnkal1.Name = "Butnkal1";
+            this.Butnkal1.Size = new System.Drawing.Size(151, 115);
+            this.Butnkal1.TabIndex = 0;
+            this.Butnkal1.Text = "УРА ПУТИНУ";
+            this.Butnkal1.UseVisualStyleBackColor = true;
+            this.Butnkal1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // Butnkal2
             // 
-            this.button2.Location = new System.Drawing.Point(271, 77);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(151, 115);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "взорвать америку!!!!!!!!!!!!!!!!!";
-            this.button2.UseVisualStyleBackColor = true;
+            this.Butnkal2.Location = new System.Drawing.Point(271, 77);
+            this.Butnkal2.Name = "Butnkal2";
+            this.Butnkal2.Size = new System.Drawing.Size(151, 115);
+            this.Butnkal2.TabIndex = 1;
+            this.Butnkal2.Text = "взорвать америку!!!!!!!!!!!!!!!!!";
+            this.Butnkal2.UseVisualStyleBackColor = true;
+            this.Butnkal2.Click += new System.EventHandler(this.Butnkal2_Click);
             // 
-            // textBox1
+            // TextKala
             // 
-            this.textBox1.Location = new System.Drawing.Point(101, 259);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(321, 20);
-            this.textBox1.TabIndex = 2;
-            this.textBox1.Text = "ХУЙ";
+            this.TextKala.Location = new System.Drawing.Point(101, 232);
+            this.TextKala.Name = "TextKala";
+            this.TextKala.Size = new System.Drawing.Size(321, 20);
+            this.TextKala.TabIndex = 2;
+            this.TextKala.Text = "ХУЙ";
+            // 
+            // BoxKala
+            // 
+            this.BoxKala.FormattingEnabled = true;
+            this.BoxKala.Items.AddRange(new object[] {
+            "ПЕТУШАРА",
+            "Я",
+            "ТЫ"});
+            this.BoxKala.Location = new System.Drawing.Point(101, 278);
+            this.BoxKala.Name = "BoxKala";
+            this.BoxKala.Size = new System.Drawing.Size(321, 21);
+            this.BoxKala.TabIndex = 3;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.BoxKala);
+            this.Controls.Add(this.TextKala);
+            this.Controls.Add(this.Butnkal2);
+            this.Controls.Add(this.Butnkal1);
             this.Name = "Form1";
             this.Text = "ФОРМА ЖОПЫ";
             this.ResumeLayout(false);
@@ -77,9 +92,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button Butnkal1;
+        private System.Windows.Forms.Button Butnkal2;
+        private System.Windows.Forms.TextBox TextKala;
+        private System.Windows.Forms.ComboBox BoxKala;
     }
 }
 

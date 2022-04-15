@@ -19,7 +19,12 @@ namespace proga5
 
         private void button1_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("aosdbhsad");
+        }
 
+        private void Butnkal2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("aosdbhsad");
         }
     }
 }
