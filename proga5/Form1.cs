@@ -26,5 +26,10 @@ namespace proga5
         {
             MessageBox.Show("ТЫ СТАРИК!");
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("AAAA!");
+        }
     }
 }
