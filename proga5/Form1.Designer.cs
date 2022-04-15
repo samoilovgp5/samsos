@@ -36,9 +36,9 @@
             // 
             this.button2.BackColor = System.Drawing.Color.Yellow;
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(132, 205);
+            this.button2.Location = new System.Drawing.Point(12, 284);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(524, 115);
+            this.button2.Size = new System.Drawing.Size(523, 144);
             this.button2.TabIndex = 1;
             this.button2.Text = "Украинек";
             this.button2.UseVisualStyleBackColor = false;
@@ -47,9 +47,9 @@
             // 
             this.button3.BackColor = System.Drawing.Color.Blue;
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(132, 84);
+            this.button3.Location = new System.Drawing.Point(265, 12);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(524, 115);
+            this.button3.Size = new System.Drawing.Size(523, 144);
             this.button3.TabIndex = 2;
             this.button3.Text = "Слава";
             this.button3.UseVisualStyleBackColor = false;
