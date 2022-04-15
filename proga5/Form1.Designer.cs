@@ -32,6 +32,7 @@
             this.Butnkal2 = new System.Windows.Forms.Button();
             this.TextKala = new System.Windows.Forms.TextBox();
             this.BoxKala = new System.Windows.Forms.ComboBox();
+            this.textputin = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // Butnkal1
@@ -74,11 +75,20 @@
             this.BoxKala.Size = new System.Drawing.Size(321, 21);
             this.BoxKala.TabIndex = 3;
             // 
+            // textputin
+            // 
+            this.textputin.Location = new System.Drawing.Point(505, 56);
+            this.textputin.Name = "textputin";
+            this.textputin.Size = new System.Drawing.Size(279, 20);
+            this.textputin.TabIndex = 4;
+            this.textputin.Text = "обэма нахуй";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.textputin);
             this.Controls.Add(this.BoxKala);
             this.Controls.Add(this.TextKala);
             this.Controls.Add(this.Butnkal2);
@@ -96,6 +106,7 @@
         private System.Windows.Forms.Button Butnkal2;
         private System.Windows.Forms.TextBox TextKala;
         private System.Windows.Forms.ComboBox BoxKala;
+        private System.Windows.Forms.TextBox textputin;
     }
 }
 
