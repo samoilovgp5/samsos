@@ -37,12 +37,13 @@
             // 
             this.button2.BackColor = System.Drawing.Color.Yellow;
             this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(265, 188);
+            this.button2.Location = new System.Drawing.Point(236, 184);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(523, 88);
             this.button2.TabIndex = 1;
-            this.button2.Text = "Украинек";
+            this.button2.Text = "Я ПИДОРАС?";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
